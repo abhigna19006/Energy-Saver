@@ -1,0 +1,166 @@
+/* ENERGY SAVER - MAIN DESIGN */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.stApp {
+    background: #f4f7f5;
+    color: #172b25;
+}
+
+[data-testid="stSidebar"] {
+    background: #102c25;
+}
+
+[data-testid="stSidebar"] * {
+    color: #f2fff8 !important;
+}
+
+[data-testid="stSidebar"] hr {
+    border-color: #34564a;
+}
+
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    max-width: 1250px;
+}
+
+.hero {
+    background: linear-gradient(120deg, #102f27, #17634a);
+    padding: 48px 42px;
+    border-radius: 24px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(16, 47, 39, 0.15);
+}
+
+.hero-tag {
+    display: inline-block;
+    background: rgba(255,255,255,0.13);
+    padding: 7px 13px;
+    border-radius: 30px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+}
+
+.hero h1 {
+    color: white !important;
+    font-size: 43px !important;
+    font-weight: 800 !important;
+    margin-bottom: 12px !important;
+}
+
+.hero p {
+    color: #d9eee3 !important;
+    font-size: 16px;
+    line-height: 1.8;
+    max-width: 650px;
+}
+
+.hero-icon {
+    font-size: 85px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.section-heading {
+    font-size: 25px;
+    font-weight: 800;
+    color: #163b2e;
+    margin-top: 28px;
+    margin-bottom: 5px;
+}
+
+.section-subtitle {
+    color: #718078;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.metric-card {
+    background: white;
+    padding: 23px;
+    border-radius: 18px;
+    border: 1px solid #e6eee9;
+    box-shadow: 0 5px 18px rgba(20, 50, 35, 0.045);
+    min-height: 135px;
+}
+
+.metric-icon {
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.metric-label {
+    color: #748279;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.metric-value {
+    color: #173d2e;
+    font-size: 27px;
+    font-weight: 800;
+    margin-top: 5px;
+}
+
+.feature-card {
+    background: white;
+    border: 1px solid #e6eee9;
+    padding: 23px;
+    border-radius: 18px;
+    min-height: 175px;
+    box-shadow: 0 5px 18px rgba(20, 50, 35, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(20, 50, 35, 0.10);
+}
+
+.feature-icon {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.feature-title {
+    font-size: 17px;
+    font-weight: 800;
+    color: #173d2e;
+    margin-bottom: 8px;
+}
+
+.feature-description {
+    color: #718078;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.footer {
+    text-align: center;
+    color: #829087;
+    font-size: 12px;
+    padding: 30px 0 10px;
+}
+
+.stButton > button {
+    background: #20a36b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 22px;
+    font-weight: 700;
+}
+
+.stButton > button:hover {
+    background: #147e50;
+    color: white;
+    border: none;
+}
